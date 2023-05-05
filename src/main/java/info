@@ -1,0 +1,16 @@
+Гуглим mvnrepository (https://mvnrepository.com/)
+Ищем junit библиотеку для тестирования.
+Выбираем версию библиотеки.
+И копируем код со страницы, который необходимо вставить в pom.xml
+
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+
+И вставляем его между тегами <dependencies>сюда</dependencies>
+
+Но IntIdea может подгрузить сама, если мы будем вызывать какие-то инструкции - запросит
